@@ -1,0 +1,12 @@
+{
+    "pipeline": "Churn Prediction MLOps",
+    "stages": [
+        {
+            "stage": "Data Loading",
+            "status": "PASSED",
+            "exit_code": 0
+        }
+    ],
+    "force": false,
+    "overall_status": "NO_NEW_DATA"
+}

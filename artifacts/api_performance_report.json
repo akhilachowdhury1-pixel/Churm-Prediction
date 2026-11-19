@@ -1,0 +1,29 @@
+{
+    "requests_sent": 50,
+    "latency_ms": {
+        "single_request": 19.09,
+        "min": 13.30,
+        "max": 16.66,
+        "mean": 14.22,
+        "median": 14.04
+    },
+    "batch_performance": {
+        "batch_size": 20,
+        "batch_latency_ms": 26.05,
+        "latency_per_sample_ms": 1.30
+    },
+    "reliability": {
+        "total_requests": 50,
+        "successful_requests": 50,
+        "success_rate_percentage": 100.0
+    },
+    "throughput": {
+        "duration_seconds": 0.6966,
+        "requests_completed": 50,
+        "requests_per_second": 71.78
+    },
+    "response_consistency": {
+        "identical_input_produces_identical_output": true,
+        "status": "PASSED"
+    }
+}

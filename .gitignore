@@ -1,0 +1,15 @@
+# Environments
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Ignore local MLflow tracking data and databases
+mlruns/
+mlflow.db
+
+# OS / Editor temporary files
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,86 @@
+{
+    "tournament_name": "Telco Customer Churn Multi-Model Tournament",
+    "dataset_total_records": 7344,
+    "train_samples": 5935,
+    "test_samples": 1409,
+    "features_count": 30,
+    "champion_model": "Decision Tree",
+    "champion_recall": 0.8235294117647058,
+    "models_summary": {
+        "Logistic Regression": {
+            "accuracy": 0.7445,
+            "precision": 0.5122,
+            "recall": 0.7861,
+            "f1_score": 0.6203,
+            "roc_auc": 0.8427,
+            "confusion_matrix": [
+                [
+                    755,
+                    280
+                ],
+                [
+                    80,
+                    294
+                ]
+            ]
+        },
+        "Decision Tree": {
+            "accuracy": 0.7104,
+            "precision": 0.4738,
+            "recall": 0.8235,
+            "f1_score": 0.6016,
+            "roc_auc": 0.8254,
+            "confusion_matrix": [
+                [
+                    693,
+                    342
+                ],
+                [
+                    66,
+                    308
+                ]
+            ]
+        },
+        "Random Forest": {
+            "accuracy": 0.7722,
+            "precision": 0.5551,
+            "recall": 0.7139,
+            "f1_score": 0.6246,
+            "roc_auc": 0.8457,
+            "confusion_matrix": [
+                [
+                    821,
+                    214
+                ],
+                [
+                    107,
+                    267
+                ]
+            ]
+        },
+        "XGBoost": {
+            "accuracy": 0.7573,
+            "precision": 0.5288,
+            "recall": 0.7861,
+            "f1_score": 0.6323,
+            "roc_auc": 0.8487,
+            "confusion_matrix": [
+                [
+                    773,
+                    262
+                ],
+                [
+                    80,
+                    294
+                ]
+            ]
+        }
+    },
+    "error_analysis": {
+        "total_test_records": 1409,
+        "false_negatives_count": 66,
+        "false_positives_count": 342,
+        "true_positives_count": 308,
+        "true_negatives_count": 693
+    }
+}
